@@ -23,8 +23,7 @@ dependencies {
 
 
 	// R2DBC Dependencies
-	implementation("org.springframework.data:spring-data-r2dbc:3.0.1")
-	testImplementation("com.h2database:h2:2.1.214")
+	implementation("org.springframework.cloud:spring-cloud-gcp-data-spanner")
 
 }
 
