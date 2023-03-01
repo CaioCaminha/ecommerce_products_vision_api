@@ -20,6 +20,11 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+
+	// R2DBC Dependencies
+	implementation("com.google.cloud:cloud-spanner-spring-data-r2dbc:1.2.0")
+
 }
 
 tasks.withType<KotlinCompile> {
